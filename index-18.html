@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For My Darloo 💜</title>
+<style>
+:root{--bg:#100d1c;--card:#ffffff10;--text:#fff8ff;--muted:#d5c9df;--a:#c7a0ff;--p:#ff9fcf}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 20% 10%,#332052,#100d1c 45%,#08070e);color:var(--text);font-family:Georgia,serif}
+.wrap{max-width:760px;margin:auto;padding:25px 18px 60px}.hero{text-align:center;padding:50px 5px 30px}.tiny{letter-spacing:4px;text-transform:uppercase;color:var(--a);font:12px Arial}.hero h1{font-size:clamp(44px,12vw,76px);font-weight:400;margin:14px 0}.hero p,.card p{line-height:1.8;color:var(--muted);font:16px/1.85 Arial}
+.card{background:var(--card);border:1px solid #ffffff1c;border-radius:28px;padding:28px;margin:20px 0;box-shadow:0 15px 45px #0004;backdrop-filter:blur(10px)}
+h2{font-weight:400;font-size:27px;margin:0 0 12px}.center{text-align:center}
+button{border:0;border-radius:30px;padding:13px 20px;margin:6px;background:linear-gradient(135deg,var(--a),var(--p));color:#211426;font-weight:700;cursor:pointer;transition:.2s}button:hover{transform:translateY(-2px)}
+.reveal{display:none;margin-top:15px;padding:18px;border-radius:18px;background:#ffffff0d;color:#fff;line-height:1.8}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mini{padding:17px;border-radius:20px;background:#ffffff09;color:#eee;line-height:1.6;font-family:Arial}.mini b{display:block;color:#ffd4eb;margin-bottom:5px}
+.big{font-size:21px!important;text-align:center;color:#fff0fa!important;font-family:Georgia!important}
+footer{text-align:center;color:#9f91aa;font:12px Arial;margin-top:30px}
+.heart{position:fixed;pointer-events:none;z-index:9;animation:up 2.8s ease-out forwards}@keyframes up{0%{opacity:0;transform:translateY(0) scale(.7)}15%{opacity:1}100%{opacity:0;transform:translate(var(--x),-190px) scale(1.2)}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.card{padding:23px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+<div class="tiny">A tiny escape from office</div>
+<h1>Darlooo 💜</h1>
+<p>I know today has been irritating. So for a few minutes, leave the office outside this page. No work. No politics. No fixing anything. Just you.</p>
+</section>
+
+<section class="card">
+<h2>First… come here. 🫂</h2>
+<p>No advice. No “calm down.” No questions. You don't have to explain anything.</p>
+<div class="center"><button onclick="show('hug')">Give me a hug</button></div>
+<div id="hug" class="reveal">Come here, meri Darloo. 🫂<br><br>Just breathe for a moment. You can be irritated. You can be tired. You can have a horrible day and still be completely, wonderfully you. ❤️</div>
+</section>
+
+<section class="card">
+<h2>Remember who you are. ✨</h2>
+<p>Whatever happened at work today is something that happened to you. It isn't a measurement of you.</p>
+<div class="grid">
+<div class="mini"><b>Your worth</b>isn't decided by someone's behaviour.</div>
+<div class="mini"><b>Your ability</b>isn't reduced by one frustrating day.</div>
+<div class="mini"><b>Your heart</b>doesn't need to become hard because someone was unfair.</div>
+<div class="mini"><b>And you</b>don't have to carry office home with you.</div>
+</div>
+</section>
+
+<section class="card">
+<h2>You once asked me… ❤️</h2>
+<p><i>“How do I complete you?”</i></p>
+<p>I thought about that question properly.</p>
+<p>You don't complete me because I'm incomplete without you. You complete the parts of my life that were always meant to be shared.</p>
+<p>You're the person I naturally want to tell when something funny happens. The person whose opinion genuinely matters to me. The person who makes me look at myself a little more honestly.</p>
+<p>You have made me more expressive, more thoughtful, and more aware of another person's feelings. You gave me a place where I could be completely myself.</p>
+<p>And somehow, without trying, you became part of the way I experience my everyday life.</p>
+<p class="big"><b>That's how you complete me.</b><br>Not by becoming my missing half —<br><span style="color:#ffb6d9">by making the life I already have feel fuller because you're in it.</span> ❤️</p>
+</section>
+
+<section class="card">
+<h2>Things I love about you…</h2>
+<p>Not your face. Not your hair. Not your clothes. Just <b>you.</b></p>
+<div class="grid">
+<div class="mini"><b>The little things</b>The way you remember details that other people would forget.</div>
+<div class="mini"><b>Your care</b>The way you care about people and things that matter to you.</div>
+<div class="mini"><b>Your mind</b>The way you think, question, notice and form your own opinions.</div>
+<div class="mini"><b>Your realness</b>The version of you that comes out when you aren't trying to impress anyone.</div>
+</div>
+</section>
+
+<section class="card">
+<h2>Emergency Mood Department 😂</h2>
+<p>Choose your current level of “I have had enough of people today.”</p>
+<div class="center">
+<button onclick="mood('rant')">🤬 I want to rant</button>
+<button onclick="mood('hug2')">🫂 I need a hug</button>
+<button onclick="mood('dist')">😂 Distract me</button>
+<button onclick="mood('me')">❤️ I just want you</button>
+</div>
+<div id="mood" class="reveal"></div>
+</section>
+
+<section class="card center">
+<h2>One thing before you go back to work…</h2>
+<p>Whatever happened today can stay at the office.</p>
+<p>Don't let someone else's negativity rent space in your head for the rest of your day.</p>
+<p>There is a whole life outside those four walls. And somewhere in that life, there's a stupid boy whose current mission is:</p>
+<p class="big"><b>“Bas meri Darloo ka mood thoda sa theek ho jaaye.”</b> 🥺❤️</p>
+<button onclick="finale()">Okay… one last thing</button>
+<div id="final" class="reveal"></div>
+</section>
+
+<footer>No pressure. No fixing. Just a little love sent to your office. 💜<br><br>— Nikhil</footer>
+</div>
+<script>
+function hearts(n){for(let i=0;i<n;i++){let h=document.createElement('span');h.className='heart';h.textContent=['♥','♡','💜','💗'][Math.floor(Math.random()*4)];h.style.left=(35+Math.random()*30)+'%';h.style.bottom='18%';h.style.setProperty('--x',(Math.random()*180-90)+'px');h.style.animationDelay=Math.random()*.3+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),3200)}}
+function show(id){document.getElementById(id).style.display='block';hearts(12)}
+function mood(t){let m={rant:'Permission granted. 😤 Tell me everything later. I will listen without trying to win an argument with your office people.',hug2:'Come here. 🫂 No words required. Consider this your five-minute escape from everybody.',dist:'Breaking news: you are officially sentenced to one stupid smile. 😌❤️ Now look at the camera and try not to.',me:"Then I'm right here. ❤️ You don't need to be in a good mood for me to want to be with you."};let e=document.getElementById('mood');e.innerHTML=m[t];e.style.display='block';hearts(15)}
+function finale(){let e=document.getElementById('final');e.innerHTML='You are allowed to have bad days.<br>You are allowed to be irritated.<br>You are allowed to not be okay for a while.<br><br>You don’t have to become happy just because I made you a cute webpage.<br><br><b>But if I can make your day even 1% lighter… that’s enough for me.</b><br><br>Take a deep breath, drink some water, and go be the ridiculously capable woman you are.<br><br><span style="font-size:21px">Office doesn’t deserve the best version of you today.<br>Save that version for yourself.<br><br>And maybe a little bit for me. 😌❤️</span><br><br><b>I love you, Darloo.</b>';e.style.display='block';hearts(30)}
+</script>
+</body>
+</html>
